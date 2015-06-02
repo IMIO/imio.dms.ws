@@ -36,6 +36,9 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Plone',
+        'imio.wsrequest.core',
+        'plone.api',
         'setuptools',
     ],
     extras_require={'test': ['plone.app.testing']},
